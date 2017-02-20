@@ -10,7 +10,7 @@ $.ajax({
       }
     },error: function (){
       console.log("shame");
-      $(".blog-items").html('<div class="flex-item post-content">Blog is not feeling well, I am substituting for them.<p>Send Complaints to <a href="https://twitter.com/ysfbekts">@ysfbekts</a>.</p></div>');
+      $(".blog-items").html('<div class="flex-item post-content">Blog is not feeling well and I am substituting for them.<p>Send Complaints to <a href="https://twitter.com/ysfbekts">@ysfbekts</a>.</p></div>');
     },
     xhrFields: {
       withCredentials: false
