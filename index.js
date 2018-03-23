@@ -21,5 +21,5 @@ function banksy(title,post,url,date){
 }
 
 $( "#deathmatch" ).click(function() {
-  window.location.href = 'deathmatch';
+  window.location.href = 'https://agolho.github.io/deathmatch';
 });
